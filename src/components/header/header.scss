@@ -1,0 +1,24 @@
+header {
+    @include flex; 
+    font-size: 1.5rem;
+    .nameLogo {
+        font-size: 2.5rem;
+    }
+    nav {
+        ul {
+            @include flex; 
+            li {
+                margin-left: 20px;
+            }
+        }  
+    }
+}
+
+header {
+    a {
+        color: rgb(62,42,119);
+        &:hover {
+            color: rgba(231,69,33,0.6);
+        }
+    }
+}
